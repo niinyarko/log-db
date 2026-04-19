@@ -64,13 +64,15 @@ Each lesson includes concept cards with deep explanations, interactive simulator
 
 ### Socratic AI mentor
 
-Use the **socratic** agent in GitHub Copilot Chat — either switch to it via the agent dropdown or mention `@socratic` inline:
+The repo includes a Socratic AI agent in `.github/agents/` — it's automatically available in VS Code when you clone the repo. Use it in GitHub Copilot Chat by switching to **socratic** via the agent dropdown or mentioning `@socratic` inline:
 
 ```
 why does WAL write before data?
 B+ tree splits
 MVCC vs locking
 ```
+
+New to custom agents? See [Creating custom agents](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents).
 
 ## Concepts
 
