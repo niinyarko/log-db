@@ -64,9 +64,12 @@ Each lesson includes concept cards with deep explanations, interactive simulator
 
 ### Socratic AI mentor
 
-The repo includes a Socratic AI agent in `.github/agents/` — it's automatically available in VS Code when you clone the repo. Use it in GitHub Copilot Chat by switching to **socratic** via the agent dropdown or mentioning `@socratic` inline:
+Want guided learning with an AI tutor? The repo includes a **Socratic AI mentor** — instead of giving you answers directly, it asks targeted questions that help you reason through database concepts yourself. Think of it as a patient senior engineer pair-programming with you.
+
+The agent is pre-configured in `.github/agents/` and automatically available in VS Code when you clone the repo. Use it in GitHub Copilot Chat by switching to **socratic** via the agent dropdown or mentioning `@socratic` inline:
 
 ```
+I'm a newbie, where do I start?
 why does WAL write before data?
 B+ tree splits
 MVCC vs locking
